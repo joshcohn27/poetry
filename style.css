@@ -1,0 +1,115 @@
+/* ===== Global Styles ===== */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #fafafa; /* clean light background */
+    color: #222; /* dark text */
+}
+
+main {
+    padding: 2rem;
+    text-align: center;
+}
+
+/* ===== Navbar ===== */
+nav {
+    background-color: #004080; /* deep blue background */
+    padding: 1rem;
+}
+
+.navbar {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar li {
+    display: inline;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+/* Active navbar item (outline when on that page) */
+.navbar li a.active {
+    outline: 3px solid #ff9900; /* Gold outline */
+    padding: 0.5rem; /* Optional: add padding to make the outline more prominent */
+    border-radius: 5px;
+}
+
+/* ===== Poems & Blockquotes ===== */
+blockquote {
+    margin-top: 1rem;
+    font-style: italic;
+    color: #555; /* slightly softer for blockquote */
+}
+
+.poem {
+    background-color: #ffffff; /* pure white behind poems */
+    padding: 1.5rem;
+    border-radius: 10px;
+    font-family: 'Georgia', serif;
+    font-size: 1.2rem;
+    color: #333; /* strong readable text */
+    white-space: pre-wrap; /* important for poem formatting */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* light shadow */
+    margin-top: 2rem;
+}
+
+/* ===== Titles - Italicized ===== */
+h1 {
+    font-style: italic;
+    color: #004080; /* optional: keeps the blue theme */
+}
+
+/* ===== Poem List ===== */
+.poem-list {
+    list-style: none;
+    padding: 0;
+    margin-top: 2rem;
+}
+
+.poem-list li {
+    margin-bottom: 1rem;
+}
+
+.poem-list a {
+    text-decoration: underline;
+    color: #004080;
+    font-size: 1.2rem;
+}
+
+.poem-list a:hover {
+    color: #0066cc; /* lighter blue on hover */
+}
+
+/* ===== Back Button ===== */
+.back-button {
+    margin-top: 2rem;
+}
+
+.back-button a {
+    text-decoration: none;
+    color: #004080;
+    font-weight: bold;
+    font-size: 1rem;
+    border: 1px solid #004080;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+}
+
+.back-button a:hover {
+    background-color: #004080;
+    color: #fff;
+}
